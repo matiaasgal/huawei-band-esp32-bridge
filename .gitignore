@@ -1,0 +1,13 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales compilados por Python
+__pycache__/
+*.py[cod]
+
+# Archivos ocultos del sistema en macOS
+.DS_Store
+
+# Archivos con contraseñas o claves secretas (si los usas)
+.env
