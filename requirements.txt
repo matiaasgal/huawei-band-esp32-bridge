@@ -3,3 +3,4 @@ pyobjc-core==13.0
 pyobjc-framework-Cocoa==13.0
 pyobjc-framework-CoreBluetooth==13.0
 pyobjc-framework-libdispatch==13.0
+python-dotenv==1.2.4
