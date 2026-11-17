@@ -1,7 +1,10 @@
-import asyncio
+import asyncio, os
 from bleak import BleakClient
+from dotenv import load_dotenv
 
-DIRECCION = "F717EA77-4EE7-5A20-CA65-6C82CF98F629"
+load_dotenv()
+
+DIRECCION = os.getenv("DIRECCION")
 
 async def main():
     print("conectando con huawei band 4 pro")
